@@ -4,6 +4,7 @@ import time
 import numpy as np
 import pandas as pd
 import os
+
 #img = cv2.imread('/home/naseem/Downloads/IMG_20180228_163009.jpg',0);
 #print(img)
 #print(img.shape)
