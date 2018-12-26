@@ -5,21 +5,10 @@ import numpy as np
 import pandas as pd
 import os
 
-#img = cv2.imread('/home/naseem/Downloads/IMG_20180228_163009.jpg',0);
-#print(img)
-#print(img.shape)
-#cv2.imshow('image',img)
-
-#cv2.waitKey() ## THis is keyboard binding funtion
-
-#cv2.destroyAllWindows()
-
 def face_detection():
-
 	face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml');
 	eyes_casecade = cv2.CascadeClassifier('./haarcascade_eye.xml');
 	#img = cv2.imread('/home/manjur/Downloads/2_two_wheeler.jpg',1);
-
 	video = cv2.VideoCapture(0)
 
 	while True:
