@@ -1,3 +1,3 @@
 # MLopenCV
 
-# Face detection using openCV library.
+# Face Recognition using openCV library.
